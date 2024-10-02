@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <title>FamilyCOFFEE</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="feedback">
+        <h1>Coffee BLOG</h1>
+        <form action="">
+            <table>
+                <tr> 
+                    <td><label for="title"><strong>Название напитка</strong></label></td> 
+                    <td><input type="text"name="title"placeholder="Американо"></td>
+                </tr>
+                 
+                <tr>
+                    <td>
+                        <label for=type><strong>Сорта кофе</strong></label>
+                    </td>
+                    <td>
+                    <select id="type" name="sort">
+                        <option>Гватемало</option>
+                        <option>Другой тип зена</option>
+                        <option>Другой тип зена</option>
+                        <option>Другой тип зена</option>
+                        <option>Другой тип зена</option>    
+                    </select>
+                    </td>
+                </tr>
 
-    <body>
-        <div>
-            <h1>Заголовк 1</h1>>
-            <h1>Заголовк 2</h1>>
-            <h1>Заголовк 3</h1>>
-            <h1>Заголовк 4</h1>>
-            <h1>Заголовк 5</h1>>
-        </div>>
-    </html>>
-    </body>
+                 <tr>
+                    <td><strong>Крепкость обжарки</strong></td>
+                    <td>
+                        <label>
+                        <input type="radio"name=strong>
+                        Крепкая
+                        </label>
+                        <br><label>
+                            <input type="radio"name=strong>
+                            Cредняя
+                        </label>
+                        <br><label>
+                            <input type="radio"name=storng>
+                            Низкая
+                        </label>
+                    </td>
+                 </tr>
+
+                 <tr>
+                    <td><p><strong>Изображение</strong></p></td>
+                   <td><input type="text"name="image"placeholder=https://avatars.mds.yandex.net/get-mpic/5236885/img_id2972817266169259649.jpeg/orig></td>
+                 </tr>
+
+                 <tr>
+                        <td><label for=cost><strong>Стоимость напитка</strong></label></td>
+                        <td><input type="text"name="cost"placeholder=1000></td>
+                 </tr>
+
+                 <tr>
+                      <td><label for="description "><strong>Напишите свой вопрос</strong></label></td>
+                      <td><br><textarea id="message" name="description">Немного про напиток</textarea></td>
+                      <td><input type="reset" value="Добавить напиток"></td>
+                 </tr>
+
+            </table>
+        </form>
+        <script data-src="https://queen-leksa.github.io/111/script.js"></script>
+
+    </section>
+</body>
+</html>
